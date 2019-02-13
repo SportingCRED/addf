@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Atletismo_Data_Base_SCRD.exe" version="1.0.0.42" publicKeyToken="e86f8c42e67d913c" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="scrd.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Atletismo_Data_Base_SCRD" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Atletismo_Data_Base_SCRD.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Atletismo_Data_Base_SCRD.exe" size="5819832">
+      <assemblyIdentity name="Atletismo_Data_Base_SCRD" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>oeEjWCUhbIyQmjIisAAHVqb0VHE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClassLibrary1.dll" size="26112">
+      <assemblyIdentity name="ClassLibrary1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Yu2RtXxsCGxrTKtJuFhlWoBrrWU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="App_icon\scrd.ico" size="22486">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rNzLrQ8V6ddCzyZDzZyGkBM9VVM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\2.jpg" size="24730">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+9OuC6PPbkZVmlbG4jwlv6B7AjI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\bg.jpg" size="442323">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>49Kwky10tpas4OHNnJrGcIHDd+E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\email.png" size="3329">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+rfZeeCQqrwdHrXjUxiWOCJg0CY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\Graphicloads-100-Flat-2-Inside-logout.ico" size="168495">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>l9Bn8N6sSGc9HJ3pp4i18rAeyIA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\loading17.gif" size="6739">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vXUjBSls3ZpN94Y7YM+4ZHxnkos=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\Metro Icon 19.ico" size="4928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zPo7Dx3Xc0f0RxtfOXuqhbQVnD8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\Metro Icon 270.ico" size="374485">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qU9f79klyvFbZWCqFaHT5/OCRZ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\Metro Icon 283.ico" size="37557">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>88F+98Z1oDqy3tq+m1xNaer+W/k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\Metro Icon 284.ico" size="375607">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cHdvhwlkzJ90f2+QvW16jEiF5T8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\Power - Restart.png" size="7523">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7bkLXIyJgQkkH2SphZcklPxecM0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\Power - Shut Down.png" size="7563">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>1l4BhocsYnNBKEa8CV0KGADZwg0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\scrd.png" size="212815">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JDcdJhnNb1Ad7SThHFT0y55d/JY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\scrd_logo.ico" size="47950">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>g9TY+RIgePWc5NyzMIx5LTQnJIk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\scrdpost.jpg" size="83456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4bAhmuhUWSRKGFSHOzAliq+EhzU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\Sidebar Documents 1.png" size="56034">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>naQNPJOtIrPxOl06mNv4hoNXR/w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="App_images\sign up email.png" size="6848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WTTzdP8NfJb9+CmmUDDuooJvc6I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Atletismo_Data_Base_SCRD.exe.config" size="1751">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6Qw74a24jChhZMxyhP/g3XKALJg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="scrd.ico" size="22486">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rNzLrQ8V6ddCzyZDzZyGkBM9VVM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=SPORTINGCRD-PC\scrdd" issuerKeyHash="a2f04f3f473cda11d8febf8d23faa200dfc2caa0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>q+pA+z0cVWTJU2+cgb1ZbEJRS58=</DigestValue></Reference></SignedInfo><SignatureValue>C4I5Z4wV2Ve29JjTlIsA1fgW24ECNYORVdS8pSXRVmmclI9iWT3oaSMf1QNtNYJuT4olCryxKq3pXrKm2RAEVne5lEYIReX6KpiYQyrhNBpw+DQ3Q2/Eu56dpT07s1A87j5cs3DHrGYWyaNi4TaqfFbh/WTi/z1an8JdGqzww2g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uPPEGlSmtjMt6KNs9B/+qiSSrK1O1X7aueZ14KfOHNRuPT532Z+vLFam+X/QM5JpSXKAxJ0FhhGz73pU1bLMAjTWoScKeFjK+HIDVCUmXwFo4frLXSCLPqQ0P+b4PyONAVWvYKGrh2lPg3o5xELCFQ9QZc6TshF1ihMMU3eLJrk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9f4b51426c59bd819c6f53c964551c3dfb40eaab" Description="" Url=""><as:assemblyIdentity name="Atletismo_Data_Base_SCRD.exe" version="1.0.0.42" publicKeyToken="e86f8c42e67d913c" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SPORTINGCRD-PC\scrdd</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ONjaELUtsXU0lutQ4B7yIUSCPXY=</DigestValue></Reference></SignedInfo><SignatureValue>A+tC3bfA9ITg7/XwzaZypzbdhE8fC+XDiVmaGtA7SSbkQis7aisLpFHOZ6/OstcfKUJHK02fNQ+XyNPQCzanqAlVDCZrizuY4A42rrvK+Ne9ybjnKZ5TvQPGIoem/c8PQEe03ZlhGbPOeOXZhncnA1NAk/k15plwOz2kx3iL6I4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uPPEGlSmtjMt6KNs9B/+qiSSrK1O1X7aueZ14KfOHNRuPT532Z+vLFam+X/QM5JpSXKAxJ0FhhGz73pU1bLMAjTWoScKeFjK+HIDVCUmXwFo4frLXSCLPqQ0P+b4PyONAVWvYKGrh2lPg3o5xELCFQ9QZc6TshF1ihMMU3eLJrk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQGCpy5F/JEpJPg6hKyUZgeTANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigAUwBQAE8AUgBUAEkATgBHAEMAUgBEAC0AUABDAFwAcwBjAHIAZABkMB4XDTE5MDIxMzAwMjkxN1oXDTIwMDIxMzA2MjkxN1owMzExMC8GA1UEAx4oAFMAUABPAFIAVABJAE4ARwBDAFIARAAtAFAAQwBcAHMAYwByAGQAZDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuPPEGlSmtjMt6KNs9B/+qiSSrK1O1X7aueZ14KfOHNRuPT532Z+vLFam+X/QM5JpSXKAxJ0FhhGz73pU1bLMAjTWoScKeFjK+HIDVCUmXwFo4frLXSCLPqQ0P+b4PyONAVWvYKGrh2lPg3o5xELCFQ9QZc6TshF1ihMMU3eLJrkCAwEAATANBgkqhkiG9w0BAQUFAAOBgQAXy1UKZbtxQGI/g9zfIFqxCFDWyM2pFKrc/E/byt9t2AtOBG3xKU9gt+E4Of6oh6SD8/gy6f+uM5DbVJgRlU1qQaU17LmCw8gJrrLtmqsqnZ9RsPi5UkCZd5eUUmt1Bl1utuqqDNMAEvRqZD/Tvp6mMYWqmd68aWFivQjBwjUs1A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
